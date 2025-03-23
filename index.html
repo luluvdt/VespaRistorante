@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vespa Ristorante - Menu</title>
+    <link rel="stylesheet" href="styles.css">
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+ 
+header {
+    background-color: #d32f2f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+ 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+ 
+nav ul li {
+    display: inline;
+}
+ 
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+ 
+.menu {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+ 
+.menu-category {
+    margin-bottom: 30px;
+}
+ 
+h2, h3 {
+    color: #d32f2f;
+}
+ 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+ 
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+ 
+th {
+    background-color: #d32f2f;
+    color: white;
+}
+ 
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #d32f2f;
+    color: white;
+    margin-top: 20px;
+}
+
+.site-logo {
+    width: 100px;
+    height: 100px;
+}
+</style>
+</head>
+<body>
+ 
+<header>
+    <h1>Vespa Ristorante🇮🇹</h1>
+    <img src="assets/logo.png" class="site-logo" alt="Mon super logo"/>
+    <nav>
+        <ul>
+            <li><a href="/index.html">Menu</a></li>
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+ 
+<main>
+    <section class="menu" id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-category">
+            <h3>🍕 Pizzas</h3>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Margherita</td>
+                    <td>Tomatoes, mozzarella, basil</td>
+                    <td>€10</td>
+                </tr>
+                <tr>
+                    <td>Vegetarian</td>
+                    <td>Tomatoes, mozzarella, , aubergines, courgettes, peppers</td>
+                    <td>€12</td>
+                </tr>
+                <tr>
+                    <td>Burrata</td>
+                    <td>Tomatoes, mozzarella, basil, burrata</td>
+                    <td>€14</td>
+                </tr>
+                <tr>
+                    <td>Speck</td>
+                    <td>Tomatoes, mozzarella, rocket, speck, basil</td>
+                    <td>€14</td>
+                </tr>
+                <tr>
+                    <td>Quattro Formaggi</td>
+                    <td>Mozzarella, gorgonzola, parmesan, goat cheese</td>
+                    <td>€12</td>
+                </tr>
+            </table>
+        </div>
+ 
+        <div class="menu-category">
+            <h3>🍝 Pasta</h3>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Spaghetti Carbonara</td>
+                    <td>Cream, egg, pancetta, parmesan</td>
+                    <td>€11</td>
+                </tr>
+                <tr>
+                    <td>Spaghetti Vegetarian</td>
+                    <td>Tomatoes, peppers, cherry tomatoes, basil</td>
+                    <td>€11</td>
+                </tr>
+                <tr>
+                    <td>Spaghetti Bolognese</td>
+                    <td>Tomatoes, beef mince, mushrooms</td>
+                    <td>€11</td>
+                </tr>
+                <tr>
+                    <td>Penne Arrabiata</td>
+                    <td>Spicy tomato sauce, garlic, basil</td>
+                    <td>€9</td>
+                </tr>
+            </table>
+        </div>
+ 
+        <div class="menu-category">
+            <h3>🥔 Gnocchi</h3>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Gnocchi Carbonara</td>
+                    <td>Cream, egg, pancetta, parmesan</td>
+                    <td>€11</td>
+                </tr>
+                <tr>
+                    <td>Gnocchi Vegetarian</td>
+                    <td>Tomatoes, peppers, cherry tomatoes, basil</td>
+                    <td>€11</td>
+                </tr>
+                <tr>
+                    <td>Gnocchi Salmon</td>
+                    <td>Cream, salmon, spinach</td>
+                    <td>€11</td>
+                </tr>
+                <tr>
+                    <td>Gnocchi Arrabiata</td>
+                    <td>Spicy tomato sauce, garlic, basil</td>
+                    <td>€9</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section id="about">
+        ABOUT
+    </section>
+    <section id="contact">
+        CONTACT
+    </section>
+</main>
+ 
+<footer>
+    <p>&copy; 2025 Vespa Ristorante - All rights reserved.</p>
+</footer>
+ 
+</body>
+</html>
